@@ -1,0 +1,47 @@
+# .gitignore
+
+# Java build artifacts
+/target/
+/bin/
+*.class
+*.log
+*.ctxt
+*.ser
+
+# IntelliJ IDEA
+/.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+/.metadata/
+/.recommenders/
+/.settings/
+*.launch
+*.prefs
+
+# Visual Studio Code
+/.vscode/
+
+# macOS artifacts
+.DS_Store
+
+# Maven artifacts
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.swp
+
+# Gradle
+.gradle/
+build/
+
+# Node.js artifacts
+node_modules/
+
+# Environment files
+*.env
+docker/mysql/
